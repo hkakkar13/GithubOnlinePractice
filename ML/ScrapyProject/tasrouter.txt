@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en_US">
+  <head>
+    <title>
+      SUSE Hawk: Log In
+    </title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="AYFc5Ow4pNNdDS3Fm9l+tTtCN7RcNroX3k4C3FdJA4FwAb8ipK94ck4lO7TEGR8UjlF2WOaRX6wOb3rfc3CMJA==" /><meta name="keywords" content="" /><meta name="description" content="" /><meta content="IE=edge" http-equiv="X-UA-Compatible" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="utf-8" />
+    <link href="/assets/favicon-23f61e5bc14c520e21c49968a5571658d3b1d85284fbec318a67129bf92b6244.png" rel="shortcut icon"></link>
+    <link rel="stylesheet" media="screen" href="/assets/vendor-420e822e02c390e16b4686904ca61330ef4e6a5b1004951429196a1f3a245f62.css" />
+    <link rel="stylesheet" media="screen" href="/assets/authentication-12e2206a5fce0a847386ab20b1906c2d9311f4a3e84f1ed7853c59429a8c5e39.css" />
+    
+    <script src="/assets/vendor-295db5e5ba598ef165a568d62d759f1360618941d90edb17f3e59d309a4eec51.js"></script>
+    <script src="/assets/authentication-4c5967914794af3358b333eb35133e6b2b25c3836be2ec1b8d29fbc1cfc3be2d.js"></script>
+    <script src="/assets/locale/en_US-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+    
+    <!--[if lt IE 9]
+      <link rel="stylesheet" media="screen" href="/assets/ie-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" />
+      <script src="/assets/ie-43868347b495a0201c31340e7e026ed7a0a22473f8cb85bc97c3bfc7925f9aea.js"></script>
+    -->
+  </head>
+  <body id="sessions">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="navbar-header" role="navigation">
+            <a class="navbar-brand" href="/"><img src="/assets/head/white-8e696ada88dd2f182dbb256bdd1e035cfae9e62926185af34e40f5a1eb054936.png" alt="White" /></a>
+          </div>
+          <div class="btn-group pull-right language-btn">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              English <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="/login/lang/ar">العربية</a></li>
+              <li><a href="/login/lang/cs">čeština</a></li>
+              <li><a href="/login/lang/de">Deutsch</a></li>
+              <li><a href="/login/lang/en_US">English</a></li>
+              <li><a href="/login/lang/es">Español</a></li>
+              <li><a href="/login/lang/fr">Français</a></li>
+              <li><a href="/login/lang/hu">Magyar</a></li>
+              <li><a href="/login/lang/it">Italiano</a></li>
+              <li><a href="/login/lang/ja">日本語</a></li>
+              <li><a href="/login/lang/ko">Korean</a></li>
+              <li><a href="/login/lang/nl">Nederlands</a></li>
+              <li><a href="/login/lang/pl">Polski</a></li>
+              <li><a href="/login/lang/pt_BR">Português</a></li>
+              <li><a href="/login/lang/ru">Русский</a></li>
+              <li><a href="/login/lang/sv">Svenska</a></li>
+              <li><a href="/login/lang/zh_CN">简体中文</a></li>
+              <li><a href="/login/lang/zh_TW">繁體中文</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container" id="content">
+        <div class="row">
+
+          <div class="col-sm-6 hidden-xs">
+             <h2>
+              SUSE <span>High Availability</span>
+            </h2>
+             <p>Hawk simplifies the management and configuration of High Availability clusters, making it easy to eliminate downtime and maximizing service availability.
+            </p>
+          </div>
+          <div class="col-sm-4 col-sm-offset-1">
+            <h3>Sign in</h3>
+            <div class="row" id="flashes">
+</div>
+
+            <form role="form" class="form-simple" id="new_session" action="/login" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ep4Yrl/suKB+uV7ZNV8k6KGTjR8rwRD/rmXBmN0R1PdjHvtoF3tkAW2RSKhqn0VJFIDM85Fm9UR+RLmb+ShbUg==" />
+  <div class="form-group"><label class="sr-only" for="session_username">Username</label><input placeholder="Username" class="form-control text-field" type="text" name="session[username]" id="session_username" /></div>
+  <div class="form-group"><label class="sr-only" for="session_password">Password</label><input placeholder="Password" class="form-control password-field" type="password" name="session[password]" id="session_password" /></div>
+  <input type="submit" name="commit" value="Login" class="btn btn-primary btn-block" data-disable-with="Login" />
+</form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="other-links">
+              <a href="https://github.com/ClusterLabs/hawk" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+              <a href="http://hawk-ui.github.io/" target="_blank"><span class="circle"><i class="fa fa-book" aria-hidden="true"></i></span></a>
+              <a href="http://hawk-guide.readthedocs.io/en/latest/" target="_blank"><span class="circle"><i class="fa fa-newspaper-o fa-fw fa-lg"></i></span></a>
+            </div>
+            <div class="copyright"><span>Copyright &copy; 2009-2018 </span> SUSE, LLC</div>
+          </div>
+          <div class="col-sm-3">
+            <div class="logo">
+              <img alt="SUSE, LLC" src="/assets/logo/white-9fd1431931d6eeb75bcc214f3a96508f8dd23f2acc70e70c1944b886d1cc80f0.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-line"></div>
+    </footer>
+  </body>
+</html>
